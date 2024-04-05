@@ -1,0 +1,31 @@
+user=_app seinfo=platform name=com.android.pixellogger domain=logger_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.google.android.connectivitythermalpowermanager domain=connectivity_thermal_power_manager type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.google.pixel.exo domain=exo_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.google.android.turboadapter domain=turbo_adapter type=app_data_file levelFrom=all
+user=system seinfo=platform name=com.google.SSRestartDetector domain=ssr_detector_app type=system_app_data_file levelFrom=user
+user=_app seinfo=platform name=com.android.ramdump domain=ramdump_app type=app_data_file levelFrom=all
+user=_app isPrivApp=true name=com.google.android.grilservice domain=grilservice_app levelFrom=all
+user=_app seinfo=mds name=com.google.mds domain=modem_diagnostic_app type=app_data_file levelFrom=user
+user=_app seinfo=platform name=com.google.googlecbrs domain=cbrs_setup_app type=app_data_file levelFrom=user
+user=_app seinfo=google name=com.google.android.GoogleCamera domain=google_camera_app type=app_data_file levelFrom=all
+user=_app seinfo=googlepulse name=com.google.android.apps.googlecamera.fishfood domain=google_camera_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.android.hbmsvmanager domain=hbmsvmanager_app type=app_data_file levelFrom=all
+user=_app isPrivApp=true name=com.google.android.uvexposurereporter domain=uv_exposure_reporter type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.google.android.devicedropmonitor domain=device_drop_monitor type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.google.android.iphealthmonitor domain=ip_health_monitor type=app_data_file levelFrom=all
+user=_app isPrivApp=true seinfo=EuiccSupportPixel name=com.google.euiccpixel domain=euiccpixel_app type=app_data_file levelFrom=all
+user=system seinfo=platform name=.dataservices domain=dataservice_app type=system_app_data_file levelFrom=user
+user=_app isPrivApp=true name=com.google.android.hardwareinfo domain=hardware_info_app type=app_data_file levelFrom=user
+user=radio isPrivApp=true seinfo=platform name=com.google.RilConfigService domain=ril_config_service_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=.qtidataservices domain=qtidataservices_app type=app_data_file levelFrom=all
+user=_app isPrivApp=true seinfo=platform name=com.google.android.connectivitymonitor domain=con_monitor_app type=app_data_file levelFrom=all
+user=_app isPrivApp=true seinfo=platform name=com.android.omadm.service domain=omadm_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.services.secureui* domain=secure_ui_service_app levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.timeservice domain=timeservice_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.telephony domain=qtelephony type=app_data_file levelFrom=all
+user=_app seinfo=platform name=org.codeaurora.ims isPrivApp=true domain=qtelephony type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.devicestatisticsservice domain=qtelephony type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qti.phone domain=qtelephony type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.telephonyservice domain=qtelephony type=app_data_file levelFrom=all
+user=_app seinfo=verizon name=com.verizon.obdm domain=obdm_app type=app_data_file levelFrom=all
+user=_app seinfo=verizon name=com.verizon.obdm:background domain=obdm_app type=app_data_file levelFrom=all
