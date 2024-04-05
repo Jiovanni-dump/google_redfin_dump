@@ -1,0 +1,5 @@
+<!--
+    Input:
+        device/google/redfin/device_framework_matrix_product.xml
+-->
+<compatibility-matrix version="7.0" type="framework" level="5"/>

@@ -1,0 +1,8 @@
+(typeattribute dataservice_app_30_0)
+(typeattribute dataservice_app_31_0)
+(typeattribute google_camera_app_30_0)
+(typeattribute google_camera_app_31_0)
+(expandtypeattribute (dataservice_app_30_0) true)
+(expandtypeattribute (google_camera_app_30_0) true)
+(typeattributeset dataservice_app_30_0 (dataservice_app))
+(typeattributeset google_camera_app_30_0 (google_camera_app))

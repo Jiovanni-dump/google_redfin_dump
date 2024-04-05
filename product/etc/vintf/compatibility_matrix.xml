@@ -1,0 +1,13 @@
+<!--
+    Input:
+        device/google/redfin/wireless_charger/compatibility_matrix.xml
+-->
+<compatibility-matrix version="7.0" type="framework" level="7">
+    <hal format="aidl" optional="true">
+        <name>vendor.google.wireless_charger</name>
+        <interface>
+            <name>IWirelessCharger</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
