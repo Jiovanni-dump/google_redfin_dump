@@ -1,0 +1,14 @@
+#line 1 "hardware/google/pixel-sepolicy/common/system_ext/property_contexts"
+ro.chipname             u:object_r:deprecated_soc_prop:s0 exact string
+ro.hardware.chipname    u:object_r:deprecated_soc_prop:s0 exact string
+ro.mediatek.platform    u:object_r:deprecated_soc_prop:s0 exact string
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/gen/newline"
+
+#line 1 "device/google/redbull-sepolicy/system_ext/private/property_contexts"
+# Boot animation dynamic colors
+persist.bootanim.color1     u:object_r:bootanim_system_prop:s0     exact    int
+persist.bootanim.color2     u:object_r:bootanim_system_prop:s0     exact    int
+persist.bootanim.color3     u:object_r:bootanim_system_prop:s0     exact    int
+persist.bootanim.color4     u:object_r:bootanim_system_prop:s0     exact    int
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/gen/newline"
+
